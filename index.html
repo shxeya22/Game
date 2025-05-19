@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROCK, PAPER & SCISSORS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>ROCK, PAPER & SCISSORS</h1>
+
+    <div class="choices">
+        <button onclick="playRound('Rock')">Rock</button>
+        <button onclick="playRound('Paper')">Paper</button>
+        <button onclick="playRound('Scissors')">Scissors</button>
+    </div>
+
+    <div class="score">
+        <p><strong>Your Choice:</strong> <span id="humanChoice">-</span></p>
+        <p><strong>Computer's Choice:</strong> <span id="computerChoice">-</span></p>
+        <p><strong>Score:</strong> <span id="humanScore">0</span> - <span id="computerScore">0</span></p>
+        <p><strong>Round:</strong> <span id="roundNumber">1</span> / 5</p>
+    </div>
+
+    <div class="result" id="resultText"></div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>
